@@ -7,9 +7,8 @@ Receive notifications of price drops on previous Amazon purchases.
 1. Install requirements: `pip install -r requirements.txt`
 
 ## Usage
-1. Download your 'Order History Report' from Amazon, and save as `purchases.csv`
+1. Download your [Order History Report](https://www.amazon.com/b2b/reports) from Amazon, and save as `purchases.csv`
     - while logged into your Amazon account, select 'Accounts & Lists'
     - under 'Ordering and shopping preferences', select 'Download order reports'
 1. Execute `python3 ./amazon-pricedrop.py`
-1. Any items that have had a price drop since your previous purchase will be
-  displayed (the results will also be saved in 'price_drops.txt')
+1. Any items that have had a price drop since your previous purchase will be displayed (the results will also be saved in 'price_drops.txt')
